@@ -1,37 +1,85 @@
-# new-tube
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎬 NewTube
 
-## Getting Started
+NewTube is a modern, feature-rich video sharing platform inspired by YouTube — built with cutting-edge technologies and packed with tools to enhance both the viewer and creator experience.
 
-First, run the development server:
+<!-- ## 🚀 Live Demo -->
+<!-- [Click here to explore NewTube(currently under development)](#) todo: Add your deployed URL here -->
+
+
+
+## ✨ Key Features
+
+- 🎥 **Advanced Video Player**: Intuitive video player with customizable quality controls.
+- 🎬 **Real-time Video Processing**: Seamless uploads and streaming via **Mux**.
+- 📝 **Automatic Video Transcription**: Auto-generates subtitles for improved accessibility.
+- 🖼️ **Smart Thumbnail Generation**: AI-driven thumbnail suggestions.
+- 🤖 **AI-powered Title & Description**: Enhances content discoverability with smart metadata.
+- 📊 **Creator Studio**: Track views, likes, and performance analytics.
+- 🗂️ **Custom Playlist Management**: Organize your content your way.
+- 📱 **Fully Responsive Design**: Smooth experience across mobile, tablet, and desktop.
+- 🔄 **Multiple Content Feeds**: Explore content across trending, subscriptions, and more.
+- 💬 **Interactive Comment System**: Engage viewers with real-time commenting.
+- 👍 **Like & Subscription System**: Build and support your audience.
+- 🎯 **Watch History Tracking**: Easily return to previously viewed videos.
+- 🔐 **Authentication System**: Secure login and registration.
+- 📦 **Module-based Architecture**: Easily extendable and maintainable codebase.
+- 🗄️ **PostgreSQL + DrizzleORM**: Reliable and scalable database management.
+- 🚀 **Built with Next.js 15 & React 19**: High-performance frontend stack.
+- 🔄 **tRPC Integration**: End-to-end type-safe APIs.
+- 💅 **TailwindCSS & ShadcnUI**: Beautiful UI and rapid styling.
+
+
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React 19, Next.js 15, TailwindCSS, ShadcnUI
+- **Backend**: tRPC, PostgreSQL, DrizzleORM
+- **Media Processing**: Mux
+- **AI & Automation**: AI for title/description generation & transcription
+- **Authentication**: Built-in secure auth system
+
+<!-- ---
+
+## 📁 Project Structure
+Todo: write project structure
+
+--- -->
+
+## 🧪 Running Locally
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+    # 1. Clone the repository
+    git clone https://github.com/your-username/new-tube.git
+    cd new-tube
+
+    # 2. Install dependencies
+    pnpm install
+
+    # 3. Set up environment variables
+    cp .env.example .env
+
+    # 4. Run database migrations
+    bunx drizzle:push
+
+    # 5. Start the development server
+    bun run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🧠 Contributing
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Contributions are welcome! Please open an issue or submit a pull request for any features, bugs, or suggestions.
 
-## Learn More
+## 📜 License
 
-To learn more about Next.js, take a look at the following resources:
+This project is licensed under the MIT License.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🙌 Acknowledgements
+- Mux
+- DrizzleORM
+- tRPC
+- TailwindCSS
+- ShadcnUI
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Credits
+- Code With Antonio
