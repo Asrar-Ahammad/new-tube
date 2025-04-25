@@ -1,5 +1,5 @@
 import { SidebarTrigger } from "@/components/ui/sidebar";
-import { Search } from "lucide-react";
+// import { Search } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { SearchInput } from "./search-input";
